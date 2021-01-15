@@ -1,0 +1,5 @@
+query fetchFooBar($arg: String) {
+  foobar: foobar(arg: $arg) {
+    id
+  }
+}
